@@ -1,0 +1,101 @@
+.production-list {
+  background-color: var(--var-header-menu-bg);
+  height: 835px;
+  width: 100%;
+  color: var(--var-header-menu-text);
+  font-style: normal;
+  overflow: hidden;
+}
+.production-list-container {
+  width: 97.22%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 39px;
+  overflow: hidden;
+}
+.production-frame {
+  width: 100%;
+}
+.product-list {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+.product-item {
+  flex: 0 0 auto;
+  width: 380px;
+  padding: 0 1%;
+}
+.pick-bottles {
+  font-size: 23px;
+  line-height: 39.2px;
+  text-align: center;
+  text-transform: capitalize;
+  margin-bottom: 37px;
+}
+.product-photo img {
+  width: 380px;
+  height: 567px;
+}
+.buy-product {
+  border: none;
+  background-color: transparent;
+  color: var(--var-header-menu-text);
+  padding: 0;
+}
+.buy-product:hover {
+  color: rgb(200, 66, 66);
+  text-decoration: underline;
+}
+.arrows {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
+}
+.arrows button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+.text-upp {
+  margin-top: 10px;
+  margin-bottom: 4px;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25.2px; /* 140% */
+  text-transform: uppercase;
+}
+.product-price {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+}
+@media (max-width: 1200px) {
+  .product-list .product-item:nth-child(3) {
+    display: none;
+  }
+}
+@media (max-width: 795px) {
+  .product-list .product-item:nth-child(2) {
+    display: none;
+  }
+}
+@media (max-width: 380px) {
+  .product-item {
+    width: 310px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .product-photo img {
+    width: 310px;
+  }
+  .production-list {
+    height: 820px;
+  }
+}

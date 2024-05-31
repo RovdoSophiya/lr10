@@ -1,0 +1,47 @@
+.following {
+  width: 100%;
+  display: flex;
+  padding-top: 1.7%;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 43.156px;
+  background-color: var(--var-header-menu-bg);
+}
+.following-map {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.following-link {
+  color: var(--var-follow-link);
+  text-align: center;
+  font-size: 23px;
+  font-style: normal;
+  line-height: 39.2px; /* 170.435% */
+  text-transform: capitalize;
+}
+.follows-photos {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 11px;
+  padding: 0.4% 0% 0% 0%;
+}
+.photo-item {
+  width: 230px;
+  height: 130px;
+  margin-bottom: 10px;
+}
+.orange-logo {
+  width: 20%;
+  position: relative;
+  top: -60px;
+  left: 90px;
+  margin-left: auto;
+  margin-right: auto;
+}

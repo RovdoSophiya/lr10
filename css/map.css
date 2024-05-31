@@ -1,0 +1,32 @@
+.line {
+  background-color: #b45f4d;
+  width: 100%;
+  height: 2px;
+}
+.map-container {
+  background-color: var(--var-header-menu-bg);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: 23px;
+  font-style: normal;
+}
+.map {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: var(--var-follow-link);
+}
+.map:hover {
+  color: var(--var-map);
+}
+iframe {
+  width: 70%;
+  margin-bottom: 10px;
+}
+@media (max-width: 500px) {
+  iframe {
+    height: auto;
+  }
+}

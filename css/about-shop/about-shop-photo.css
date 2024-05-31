@@ -1,0 +1,9 @@
+.about-shop-photo {
+  width: 100%;
+  height: 435px;
+  background-image: url("../../img/about-shop-photo.png");
+  background-size: cover; /*подстройка под макет*/
+  background-position: center;
+  display: flex;
+  justify-content: center;
+}

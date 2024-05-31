@@ -1,0 +1,50 @@
+[
+  {
+    "name": "Helena Grag",
+    "image": "../img/reviews/person1.jpg",
+    "review": "Amazing shop!!! LU. Bought some hair spray to my daughter and she really appreciate this. Good luck,guys!!!!!",
+    "star": "5"
+  },
+  {
+    "name": "Dilan Stark",
+    "image": "../img/reviews/person2.jpg",
+    "review": "The store has a wide selection of hair care products, including sprays and shampoos. Looks promising but needs more exploration to judge effectiveness.",
+    "star": "5"
+  },
+  {
+    "name": "Sanna Scott",
+    "image": "../img/reviews/person3.jpg",
+    "review": "This store offers a decent range of grooming essentials, from sprays to shampoos. Still testing them out, but initial impressions are good.",
+    "star": "4"
+  },
+  {
+    "name": "Mell Diow",
+    "image": "../img/reviews/person4.jpg",
+    "review": "The shampoo I bought here was just average. Unfortunately, it seemed to exacerbate my dandruff issue instead of solving it. Three stars out of five.",
+    "star": "3"
+  },
+  {
+    "name": "Ricky Nicher",
+    "image": "../img/reviews/person5.jpg",
+    "review": "I recently went on a haircare shopping spree and I'm absolutely delighted with my purchases! I picked up a variety of products from the store, and I must say, everything exceeded my expectations.",
+    "star": "5"
+  },
+  {
+    "name": "Lana Ray",
+    "image": "../img/reviews/person6.jpg",
+    "review": "Unfortunately, the haircare products I recently purchased turned out to be a big disappointment for me.I experienced an allergic reaction, which was quite unexpected and unpleasant.",
+    "star": "2"
+  },
+  {
+    "name": "Sara Polson",
+    "image": "../img/reviews/person7.jpg",
+    "review": "Great shop. Really cool production. But I have a little allergy on shampoo",
+    "star": "4"
+  },
+  {
+    "name": "Alex Wesker",
+    "image": "../img/reviews/person8.jpeg",
+    "review": "This store offers a decent range of grooming essentials, from sprays to shampoos. Still testing them out, but initial impressions are good.",
+    "star": "5"
+  }
+]

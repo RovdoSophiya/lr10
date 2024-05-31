@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="../img/Orange-logo.png" />
+    <link rel="stylesheet" href="../css/normalize.css" />
+    <link rel="stylesheet" href="../css/sign-in-up/registration.css" />
+    <link rel="stylesheet" href="../css/fonts.css" />
+    <title>Register</title>
+  </head>
+  <body class="registration">
+    <section class="close">
+      <div class="language-buttons">
+        <div class="lang-button">
+          <button data-i18="rus" class="rus">Rus</button>
+        </div>
+        <div class="lang-button">
+          <button data-i18="en" class="en">En</button>
+        </div>
+      </div>
+      <a href="index.html" class="back-to-main"
+        ><h2 data-i18="backMain">BACK TO MAIN</h2></a
+      >
+    </section>
+    <section class="registration-box">
+      <div class="form-box">
+        <div class="form-value">
+          <form id="registration">
+            <h2 class="Registration" data-i18="Registration">Registration</h2>
+            <div class="inputbox email">
+              <img
+                class="mail-outline"
+                src="../img/signInUp/envelope.png"
+                alt="envelope"
+              />
+              <input class="inp email-inp" type="email" required />
+              <label class="inp-label"
+                ><span data-i18="enterEmail">Email*</span></label
+              >
+              <label class="input-error ei" data-i18=""
+                >Invalid email format</label
+              >
+              <label class="input-error ee" data-i18=""
+                >It's already registered</label
+              >
+            </div>
+            <div class="inputbox phone">
+              <img
+                class="mail-outline"
+                src="../img/signInUp/telephone-call.png"
+                alt="telephone"
+              />
+              <input class="inp phone-inp" type="tel" name="tel" required />
+              <label class="inp-label"
+                ><span data-i18="enterPhone">Telephone*</span></label
+              >
+              <label class="input-error ti"
+                >Phone number must start with +375 and have 13 digits in
+                total</label
+              >
+              <label class="input-error te">Number is already registered</label>
+            </div>
+            <div class="inputbox">
+              <img
+                class="mail-outline"
+                src="../img/signInUp/card.png"
+                alt="card"
+              />
+              <input class="inp lastName-inp" type="text" required />
+              <label class="inp-label"
+                ><span data-i18="enterLastName">Last name*</span></label
+              >
+            </div>
+            <div class="inputbox">
+              <img
+                class="mail-outline"
+                src="../img/signInUp/card.png"
+                alt="card"
+              />
+              <input class="inp name-inp" type="text" required />
+              <label class="inp-label"
+                ><span data-i18="enterName">First name*</span></label
+              >
+            </div>
+            <div class="inputbox">
+              <img
+                class="mail-outline"
+                src="../img/signInUp/card.png"
+                alt="card"
+              />
+              <input class="inp fatherName-inp" type="text" />
+              <label class="inp-label"
+                ><span data-i18="enterFatherName">Father name</span></label
+              >
+            </div>
+            <div class="inputbox">
+              <img
+                class="mail-outline"
+                src="../img/signInUp/nick.png"
+                alt="nick"
+              />
+              <input class="inp nick" type="text" required />
+              <label class="inp-label"
+                ><span data-i18="enterNickName">Nick name*</span></label
+              >
+              <label class="input-error ne" data-i18=""
+                >It's already registered</label
+              >
+            </div>
+            <button class="gen nick" data-i18="genNick">
+              Genetate nick name
+            </button>
+            <div class="inputbox">
+              <img
+                class="lock-closed-outline sec"
+                src="../img/signInUp/lock.png"
+                onclick="togglePassword(this)"
+                alt="lock"
+              />
+              <input
+                id="passwordField2"
+                class="inp pswd-inp"
+                type="password"
+                name="pswd"
+                id="passwordField"
+                required
+              />
+              <label class="inp-label pswd-inp"
+                ><span data-i18="enterPassword">Password*</span></label
+              >
+              <label class="pswd-error pe"
+                >Invalid password(need to have at least 8 characters(uppercase,
+                lowercase,digit, special character and not be popular))
+              </label>
+              <label class="pswd-error pi">It is already used </label>
+            </div>
+            <button class="gen pswd" data-i18="genPswd">
+              Genetate password
+            </button>
+            <div class="inputbox">
+              <img
+                class="lock-closed-outline th"
+                src="../img/signInUp/lock.png"
+                onclick="togglePassword(this)"
+                alt="lock"
+              />
+              <input
+                id="passwordField3"
+                class="inp rpswd"
+                type="password"
+                name="repeatpswd"
+                required
+              />
+              <label class="inp-label rpswd-inp"
+                ><span data-i18="repeatPassword">Repeat password</span></label
+              >
+              <label class="pm" data-i18="repeatError"
+                >Passwords must match
+              </label>
+            </div>
+            <div class="licence">
+              <label
+                ><input type="checkbox" class="lic" />
+                <span data-i18="chkLicense"
+                  >I read the licence aggreements</span
+                >
+              </label>
+              <a href="#" data-i18="licence">Licence agreements</a>
+            </div>
+            <button class="reg" data-i18="register">Register</button>
+            <div class="log">
+              <p data-i18="haveAccount">Already have an account?</p>
+              <a href="authorisation.html" data-i18="regLogin">Login</a>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+    <script src="../javaScript/change-language.js"></script>
+    <script src="../javaScript/registration.js"></script>
+    <script src="../javaScript/see-reg-passwords.js"></script>
+  </body>
+</html>

@@ -1,0 +1,203 @@
+.authorization {
+  background: url("../../img/signInUp/fone.jpg");
+  z-index: -1;
+  width: 100%;
+}
+.close {
+  display: flex;
+  justify-content: flex-end;
+  height: 10vh;
+  width: 100%;
+}
+.close a {
+  color: white;
+  width: 165px;
+  height: 100%;
+  padding-right: 10px;
+}
+.back-to-main h2 {
+  margin: 0;
+  transition: text-shadow 0.6s ease-in-out, text-decoration 0.6s ease-in-out;
+}
+
+.back-to-main:hover {
+  text-shadow: 4px 4px 5px rgba(0, 0, 0, 0.3);
+  text-decoration: underline;
+}
+.language-buttons {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  margin-right: 40px;
+}
+.lang-button button {
+  color: white;
+  background-color: transparent;
+  border: 1px solid white;
+  border-radius: 4px;
+  height: 28px;
+  transform: background-color 0.6s ease-in-out;
+}
+.lang-button button:hover {
+  background-color: rgb(171, 171, 188);
+}
+.authorization-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 90vh;
+  width: 100%;
+}
+.form-box {
+  position: relative;
+  width: 60%;
+  height: 450px;
+  top: 9px;
+  background: transparent;
+  border: 2px solid white;
+  border-radius: 20px;
+  backdrop-filter: blur(15px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Login {
+  font-size: 2em;
+  color: white;
+  text-align: center;
+}
+.form-value {
+  width: 60%;
+}
+.inputbox {
+  position: relative;
+  margin: 30px 0px;
+  width: 100%;
+  border-bottom: 2px solid white;
+}
+.inputbox label {
+  position: absolute;
+  top: 50%;
+  left: 5px;
+  transform: translateY(-50%);
+  color: white;
+  font-size: 1em;
+  top: -5px;
+}
+.inputbox input {
+  width: 100%;
+  height: 50px;
+  background: transparent;
+  border: none;
+  outline: none;
+  font-size: 1em;
+  padding: 0px 35px 0px 5px;
+  color: white;
+}
+.inputbox input:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0 50px rgba(0, 0, 0, 0) inset !important; /* Устанавливает прозрачный фон*/
+  -webkit-text-fill-color: white !important; /*цвет текста*/
+  -webkit-background-clip: text !important; /*фон клипируется по тексту, делая фон прозрачным */
+}
+.inputbox img {
+  position: absolute;
+  right: 8px;
+  font-size: 1.2em;
+  top: 20px;
+}
+.forget {
+  width: 100%;
+  margin: -15px 0 15px;
+  font-size: 1rem;
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+.forget label {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+.forget label input {
+  margin-right: 3px;
+}
+.forget label div {
+  display: flex;
+  flex-direction: row;
+}
+.forget a {
+  color: white;
+  margin-left: 3px;
+}
+.forget a:hover {
+  text-decoration: underline;
+}
+.log {
+  width: 100%;
+  height: 40px;
+  border-radius: 40px;
+  background: white;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 1em;
+  font-weight: 500;
+}
+.register {
+  width: 100%;
+  font-size: 0.9em;
+  color: white;
+  text-align: center;
+  margin: 25px 0 10px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+.register a {
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+  margin-left: 3px;
+}
+.reg:hover {
+  text-decoration: underline;
+}
+.input-error {
+  height: 0;
+  overflow: hidden;
+  opacity: 0;
+  transition: height 0.6s ease-in-out, opacity 0.6s ease-in-out;
+}
+.input-error.error {
+  width: 100%;
+  height: 40px;
+  display: flex;
+  opacity: 1;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin: 10px auto;
+  color: rgb(234, 15, 15);
+  background-color: rgba(246, 244, 244, 0.755);
+  font-size: 24px;
+  font-weight: 600;
+  border-radius: 20px;
+}
+@media (max-width: 743px) {
+  .form-value {
+    width: 90%;
+  }
+}
+@media (max-width: 573px) {
+  .input-error.error {
+    font-size: 20px;
+  }
+}
+@media (max-width: 500px) {
+  .form-value {
+    width: 100%;
+  }
+  .form-box {
+    width: 83%;
+  }
+}

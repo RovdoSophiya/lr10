@@ -1,0 +1,92 @@
+.photo-section {
+  width: 100%;
+  height: 740px;
+  background-image: url("../../img/dae-shop.png");
+  background-size: cover; /*подстройка под макет*/
+  background-position: center;
+  color: #f6f4ec;
+  font-style: normal;
+  font-weight: 400;
+}
+.photo-section-information {
+  padding-top: 24%;
+  padding-left: 76px;
+  display: flex;
+  flex-direction: column;
+  gap: 21px;
+}
+.shop-all {
+  font-size: 40px;
+  line-height: 27.2px; /* 68% */
+  transition: transform 0.6s ease-in-out;
+}
+.shop-information {
+  font-size: 33px;
+  line-height: 64px; /* 193.939% */
+}
+.shop-all:hover {
+  transform: scale(1.005);
+}
+.shop-container {
+  width: 100%;
+  background-color: var(--var-shop-container);
+}
+.shop-page-annotation {
+  padding-top: 78px;
+  padding-left: 87px;
+  padding-bottom: 24px;
+}
+.shop-page-annotation p {
+  color: var(--var-shop-text-color);
+  font-style: normal;
+  font-weight: 400;
+}
+.shop-text1 {
+  font-size: 40px;
+  line-height: 27.2px; /* 68% */
+}
+.shop-text2 {
+  font-size: 33px;
+  line-height: 64px; /* 193.939% */
+}
+@media (max-width: 1200px) {
+  .photo-section {
+    height: auto;
+  }
+  .photo-section-information {
+    padding-top: 20%;
+    padding-bottom: 15%;
+    padding-left: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 21px;
+  }
+  .shop-all {
+    font-size: 40px;
+    line-height: 27.2px; /* 68% */
+  }
+  .shop-information {
+    font-size: 33px;
+    line-height: 64px; /* 193.939% */
+  }
+}
+@media (max-width: 768px) {
+  .shop-all {
+    font-size: 30px;
+  }
+  .shop-information {
+    font-size: 23px;
+  }
+}
+@media (max-width: 530px) {
+  .photo-section-information {
+    padding-left: 30px;
+    gap: 10px;
+  }
+  .shop-all {
+    font-size: 17px;
+  }
+  .shop-information {
+    font-size: 13px;
+  }
+}
